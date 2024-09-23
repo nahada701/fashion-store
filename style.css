@@ -1,0 +1,155 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Poppins", sans-serif;
+    color: rgb(56, 49, 49);
+}
+#container{
+ 
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2%;
+
+}
+nav>span{
+    font-size:23px;
+    font-weight: 500;
+}
+.list-item{
+    display: inline;
+    padding: 20px;
+    
+}
+.links{
+    text-decoration: none;
+    color: rgb(39, 33, 33);
+}
+.links:hover{
+    color: rgb(255, 120, 10);
+    text-decoration: underline;
+}
+.icons>a>i{
+    color: black;
+    margin-right: 10px;
+}
+#home{
+    position: relative;
+}
+/* .btn{
+
+        text-decoration: none;
+        
+            font-size: 20px;
+            color: white;
+            margin: 30px;
+            position: absolute;
+            bottom: -20px;
+            font-weight: 600;
+           
+} */
+.home-content {
+    position: absolute;
+    bottom: 196px;
+    left: 48px;
+    width: 30%;
+    margin: 38px;
+
+}
+.home-content>h1{
+    font-size: 3rem;
+    color: white;
+}
+.home-content>p{
+    padding: 18px 0px;
+    color: white;
+}
+.home-content>a{
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 20px;
+    border-radius: 50px;
+    display: block;
+    height: 20px;
+    width: 186px;
+}
+.story-head>h1{
+    text-align: center;
+    margin-top: 30px;
+}
+.story-content{
+    margin: 50px 80px;
+
+    display: grid;
+    gap: 55px;
+   grid-template-columns: 1fr 1fr 1fr;
+}
+.left{
+    margin-left: 230px;
+    margin-top: 99px;
+}
+.left>ul>li{
+   list-style-type: none;
+   border-left: 2px solid rgb(255, 120, 10);
+   padding-left: 5px;
+   padding-top: 10px;
+}
+.retail-content{
+    display: flex;
+}
+.retail-right{
+    background-color: #ecb7c9;
+    padding: 137px;
+    height: 194px;
+}
+#featured{
+    margin-top: 50px;
+}
+#featured>h1{
+
+    text-align: center;
+}
+.products{
+    display: flex;
+    justify-content: center;
+    gap: 55px;
+}
+.pro{
+    width: 300px;
+}
+.price{
+    font-size: 17px;
+    font-weight: 800;
+       position: relative;
+        left: 264px;
+        bottom: 55px;
+    
+}
+button{
+    margin-top: 20px;
+   margin-left: 50%;
+}
+#footer{
+    background-color: black;
+}
+.FOOTER-CONTENT{
+    margin: 20px 20px 0px;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 30px;
+    padding-top: 57px;
+    padding-bottom: 40px;
+}
+button{
+    background-color: white;
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.footer-item>span{
+    padding-left: 4px;
+
+}
